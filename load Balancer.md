@@ -1,0 +1,24 @@
+# ロードバランサーとは
+サーバーへのアクセスを安定させるための仕組み。
+
+### AWSにおけるロードバランサーの種類
+・ Application  Load Balancer(ALB) </br>
+レイヤー７で動作するロードバランサーである。HTTPやHTTPSプロトコルのリクエストを負荷分散する。いわゆる一般的なロードバランサーである。
+
+・ Network Load Balancer(NLB) </br>
+レイヤ４で動作するロードバランサーである。TCP,UDPプロトコルのリクエストを負荷分散します。ALBではレスポンスをALBから返すが、NLBではレスポンスをクライアントに直接返す。従ってパフォーマンスはNLBの方が高い。
+
+・ Gateway Load Balancer(GLB) </br>
+サードパーティ製品を簡単に利用するためのロードバランサーである。
+
+ロードバランサの特徴に関しては以下を参考 </br>
+[各ロードバランサの特徴](https://aws.amazon.com/jp/elasticloadbalancing/features/?nc=sn&loc=2&dn=1)
+
+
+
+
+
+
+
+### 参考文献 
+**・　AWSハンズオンブック　インフラ入門**
