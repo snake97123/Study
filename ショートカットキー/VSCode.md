@@ -12,6 +12,3 @@ control + B 左へ１文字分戻る<br>
 control + A 行の先頭へ<br>
 control + E 行の末尾へ
 
-## マルチカーソル
-control + shift + →
-control + shift + クリック

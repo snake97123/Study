@@ -6,3 +6,7 @@
 ・command ＋ shift + y 下のウインドウの表示<br>
 ・command + option + 0 右のウインドウの表示<br>
 ・command + 0 左のウインドウの表示
+
+## マルチカーソル
+control + shift + 矢印
+control + shift + クリック
