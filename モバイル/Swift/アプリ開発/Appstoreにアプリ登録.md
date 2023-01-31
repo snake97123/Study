@@ -26,9 +26,17 @@ App Store ConnectとはApp Storeで販売するAppを管理するためのWebベ
 7. Routing App Coverage Fileを添付する。　地図検索などのアプリなどを登録する際に必要になっているみたい。
 
 ## App Informationを設定する。
+1. Content Rightsの設定　第三者の著作物を使用しているかしていないかで選択するものが変わる。
+2. Age Ratingの設定　質問に答えていくことで対象年齢が設定されていく。
+3. Category アプリのカテゴリーを設定します。
 
 ## Pricing and Availabilityを設定する。
-
+1. Price Scheduleの設定　アプリの価格の設定を行う。
+2. Tax Category 税金のカテゴリを設定できるみたい。詳しくは以下を参照<br>
+[税金カテゴリの設定がApp Store Connectで利用可能に](https://developer.apple.com/jp/news/?id=2bbbudbw)
+3. Pre-Orders 予約注文を設定できるみたい。
+4. Availabilityの設定　アプリを使用できる地域を設定するみたい。
+5. App Distribution Methods アプリの配布方法を設定することができるみたい。
 ## App Privacyを設定する
 
 ## アプリをアップロードする。
