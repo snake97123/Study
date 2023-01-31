@@ -37,8 +37,10 @@ App Store ConnectとはApp Storeで販売するAppを管理するためのWebベ
 3. Pre-Orders 予約注文を設定できるみたい。
 4. Availabilityの設定　アプリを使用できる地域を設定するみたい。
 5. App Distribution Methods アプリの配布方法を設定することができるみたい。
-## App Privacyを設定する
 
+## App Privacyを設定する
+1. Privacy Policyの設定　プライバシーポリシーを記載しているURLを設定する。
+2. Get Startedのボタンを押して設定をしていく。
 ## アプリをアップロードする。
 
 ## アプリのビルド情報を編集する。
