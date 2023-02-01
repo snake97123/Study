@@ -12,3 +12,6 @@ control + B 左へ１文字分戻る<br>
 control + A 行の先頭へ<br>
 control + E 行の末尾へ
 
+## 拡大・縮小
+・command + -
+・

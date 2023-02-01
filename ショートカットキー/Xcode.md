@@ -11,3 +11,6 @@
 ・control + shift + 矢印<br>
 ・control + shift + クリック
 
+## 拡大・縮小
+・command + - 縮小<br>
+・command + shift + + 拡大
