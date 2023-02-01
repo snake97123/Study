@@ -8,5 +8,6 @@
 ・command + 0 左のウインドウの表示
 
 ## マルチカーソル
-control + shift + 矢印
-control + shift + クリック
+・control + shift + 矢印<br>
+・control + shift + クリック
+
