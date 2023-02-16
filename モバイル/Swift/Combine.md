@@ -1,7 +1,7 @@
 # Combineに関して学んだことをまとめる。
 
 ### Combineとは
-CombineとはWWDC２０１９でAppleでSwiftの新しいフレームワークとして紹介されました。</br>
+CombineとはWWDC２０１９でAppleでSwiftの新しいフレームワークとして紹介されました。オブジェクトからオブジェクトにイベントを伝える仕組みを提供します。</br>
 RxSwiftやReactiveSwiftの代替のフレームワークとしても使用される。</br>
 非同期イベントの処理をカスタマイズすることが可能である。</br>
 
@@ -11,7 +11,7 @@ Declares that a type can transmit a sequence of values over time.</br>
 時間経過とともに変化する値を転送する型を宣言することができる。</br>
 ・**Subscribers**</br>
 A protocol that declares a type that can receive input from a publisher.</br>
-pablisherから入力を受け取ることができる型を宣言することができるプロトコルのこと。</br>
+publisherから入力を受け取ることができる型を宣言することができるプロトコルのこと。</br>
 
 イベントを渡す手段としてPassthroughSubjectクラスを使用する。</br>
 ```Swift
@@ -28,5 +28,17 @@ func sink(receiveValue: @escaping ((Self.Output) -> Void)) -> AnyCancellable
 ```Swift
 subject.send(value)
 ```
+イベントの完了を渡すこともできる。以下のコードでイベントの完了を受信した際に実行する処理である。
+```swift 
+func sink(receiveCompletion: @escaping ((Subscribers.Completion<Self.Failure>) -> Void)) -> AnyCancellable 
+```
+
+この時には値を送信する代わりにイベントの完了を意味する.finishedを送信する。
+```Swift
+subject.send(completion: .finished)
+```
+
+
+
 
 
